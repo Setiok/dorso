@@ -9,32 +9,34 @@
         </h1>
     </div>
 
-    <ul id="menu">
-        <li>
-            <a href="/">Accueil</a>
-        </li>
-        <li>
-            <a href="#">111111111</a>
-            <ul class="lvl2">
-                <li>
-                    <a href="#">........</a>
-                </li>
-                <li>
-                    <a href="#">........</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">222222222</a>
-            <ul class="lvl2">
-                <li>
-                    <a href="#">........</a>
-                </li>
-                <li>
-                    <a href="#">........</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <div id="menu">
+        <ul class="menu">
+            <li>
+                <a href="/">Accueil</a>
+            </li>
+            <li>
+                <a href="#">111111111</a>
+                <ul class="lvl2">
+                    <li>
+                        <a href="#">........</a>
+                    </li>
+                    <li>
+                        <a href="#">........</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">222222222</a>
+                <ul class="lvl2">
+                    <li>
+                        <a href="#">........</a>
+                    </li>
+                    <li>
+                        <a href="#">........</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
 </div>

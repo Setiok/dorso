@@ -6,38 +6,46 @@
     position: relative;
 }
 
-.logo {
+#logo{
     width: 65px;
-    height: 95px;
+    height:95px;
     display: inline-block;
     float: left;
 }
 
-/*MENU*/
-#menu {
-    text-align: center;
+.logo {
+    width: 65px;
+    height: 95px;
+    display: inline;
     float: left;
+}
+
+/*MENU*/
+.menu {
+    text-align: center;
+    float: right;
+
 
 }
 
-#menu, #menu a{
+.menu, .menu a{
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
 }
 
-#menu, #menu ul{
+.menu, .menu ul{
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
-#menu li{
+.menu li{
     display: inline-block;
     position: relative;
     font-size: 12px;
 }
-#menu a{
+.menu a{
     display: block;
     width: 150px;
     height: 30px;
@@ -46,12 +54,12 @@
 
 }
 
-#menu ul{
+.menu ul{
     display:none;
     position: absolute;
 }
 
-#menu li:hover> ul{
+.menu li:hover> ul{
     display: block;
 }
 .lvl2{
