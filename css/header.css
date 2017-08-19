@@ -7,7 +7,7 @@
 }
 
 #logo{
-    width: 65px;
+    width: 360px;
     height:95px;
     display: inline-block;
     float: left;
@@ -16,15 +16,14 @@
 .logo {
     width: 65px;
     height: 95px;
-    display: inline;
     float: left;
 }
 
 /*MENU*/
-.menu {
-    text-align: center;
-    float: right;
+#menu {
 
+    float: right;
+    margin-top: 35px;
 
 }
 
